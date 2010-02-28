@@ -24,3 +24,7 @@
                '("\\.py\\'" flymake-pyflakes-init)))
 (add-hook 'python-mode-hook 'flymake-mode)
 
+;; macosX slovenian kbd layout
+(setq mac-command-modifier 'meta
+        mac-option-modifier 'none
+        default-input-method "MacOSX")
